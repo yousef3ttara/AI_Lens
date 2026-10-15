@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and checkpoints
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Datasets and large training files
+data/*
+!data/.gitkeep
+
+# Model checkpoints and weights (keep class_names.json and .gitkeep)
+models/*
+!models/.gitkeep
+!models/class_names.json
+
+# Generated evaluation reports and figures (keep templates or .gitkeep)
+reports/*
+!reports/.gitkeep
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit local config & secrets
+.streamlit/secrets.toml
